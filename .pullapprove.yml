@@ -115,7 +115,6 @@ pullapprove_conditions:
 
 groups:
   framework-global-approvers:
-    description: If someone in this group gives a global approval, it can override the status of more specific groups.
     type: optional  # Default: required
     reviews:
       request: 0
@@ -126,7 +125,6 @@ groups:
         - framework-global-approvers
 
   framework-global-approvers-for-docs-only-changes:
-    description: Can override the approval status for docs PRs.
     type: optional
     reviews:
       request: 0
